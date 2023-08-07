@@ -1,7 +1,4 @@
-package Exercise19_1;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package Exercise19_01;
 
 public class GenericStack<E> {
     private final int DEFAULT_SIZE = 5;
