@@ -45,3 +45,6 @@ Introduction to Java programming and data structures by Y. Daniel Liang
 43. Red-Black Trees
 44. Testing Using JUnit
 
+## Developer Notes
+
+* Chapters 14, 15, 16, 20 must be run with JDK 8 - some exercise use JavaFX
