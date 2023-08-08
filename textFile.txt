@@ -1,0 +1,5 @@
+DataInputStream and DataOutputStream read and write Java primitive-type values
+and strings in a machine-independent fashion, thereby enabling you to write a data file on one
+machine and read it on another machine that has a different operating system or file structure.
+An application uses a data output stream to write data that can later be read by a program using
+a data input stream.
