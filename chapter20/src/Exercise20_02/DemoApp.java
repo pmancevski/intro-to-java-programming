@@ -9,9 +9,9 @@ public class DemoApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Button button = new Button("OK");
+        StoreNumbersController storeNumbersController = new StoreNumbersController();
 
-        Scene scene = new Scene(button, 200, 200);
+        Scene scene = new Scene(storeNumbersController.getPane());
         stage.setTitle("test");
         stage.setScene(scene);
         stage.show();
