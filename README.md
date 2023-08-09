@@ -47,4 +47,8 @@ Introduction to Java programming and data structures by Y. Daniel Liang
 
 ## Developer Notes
 
-* Chapters 14, 15, 16, 20 must be run with JDK 8 - some exercise use JavaFX
+* Chapters 14, 15, 16, 20 use javaFX. Need to be added SDK manually to the project path. JavaFX SDK 17.0.8
+
+
+Chapter in progress:
+* chapter 4, 10, 13, 20
