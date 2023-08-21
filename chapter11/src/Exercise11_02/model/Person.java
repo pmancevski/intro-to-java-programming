@@ -1,4 +1,4 @@
-package Exercise11_02;
+package Exercise11_02.model;
 
 public class Person {
     private String name;
@@ -46,5 +46,10 @@ public class Person {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Class name: " + this.getClass().getSimpleName() + "\nName: " + getName();
     }
 }
