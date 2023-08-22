@@ -51,4 +51,4 @@ Introduction to Java programming and data structures by Y. Daniel Liang
 
 
 Chapter in progress:
-* chapter 11, 13, 20
+* chapter 05, 12, 13, 20
