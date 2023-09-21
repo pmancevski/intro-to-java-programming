@@ -9,6 +9,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chapter14" target="17" />
       <module name="chapter20" target="17" />
       <module name="demo" target="17" />
     </bytecodeTargetLevel>
