@@ -1,2 +1,1 @@
-contains an unspecified
-number of scores
+54 12 45 89 71 66 37 74 40 99 55 23
