@@ -15,17 +15,34 @@ public class DemoApp {
         File file = new File(fileName);
 
         String content = "";
+        int countTab = 0;
 
         try (Scanner inputFromFile = new Scanner(file)){
-            while (inputFromFile.hasNextLine()){
-                content += inputFromFile.nextLine();
+            while (inputFromFile.hasNext()){
+                String str = inputFromFile.next();
+
+                if (str.contains("{")){
+                    content += str + "\n" + "\t";
+                    countTab++;
+                }
+                else if (str.contains("}")){
+                    String tabString = "";
+
+                    for (int count = 0; count < countTab - 1; count++){
+                        tabString += "\t";
+                    }
+
+                    content += "\n" + tabString + str;
+                    countTab--;
+                }
+                else {
+                    content += str + " ";
+                }
             }
         }
         catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-
-        //content = content.replace("\n{", "{\n");
 
         try (PrintWriter output = new PrintWriter(fileName)){
             output.print(content);
