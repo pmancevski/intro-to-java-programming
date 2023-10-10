@@ -49,6 +49,9 @@ Introduction to Java programming and data structures by Y. Daniel Liang
 
 * Chapters 14, 15, 16, 20 use javaFX. Need to be added SDK manually to the project path. JavaFX SDK 17.0.8
 
+Add following command in VM options:
+--module-path "C:\Program Files\Java\javafx-sdk-17.0.8\lib" --add-modules=javafx.base,javafx.controls,javafx.graphics,javafx.media,javafx.swing,javafx.web
+
 ** The image files used in the exercises can be obtained from liveexample.pearsoncmg.com/resource/image.zip under the image folder.
 
 Chapter in progress:
