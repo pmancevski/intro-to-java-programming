@@ -55,4 +55,4 @@ Add following command in VM options:
 ** The image files used in the exercises can be obtained from liveexample.pearsoncmg.com/resource/image.zip under the image folder.
 
 Chapter in progress:
-* chapter 05, 06, 07, 12, 13, 14, 20
+* chapter 06, 07, 12, 13, 14, 20
